@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({ path: require('path').resolve(__dirname, '.env') })
 const cors = require('cors')
 const express = require('express')
 const mongoose = require('mongoose')
@@ -7,9 +7,9 @@ const rateLimit = require('express-rate-limit')
 
 const app = express()
 
-const CLIENT_URL = process.env.NODE_ENV === 'production'
+const FRONTEND_URL = process.env.NODE_ENV === 'production'
     ? process.env.LIVE_URL
-    : process.env.CLIENT_URL
+    : process.env.FRONTEND_URL
 
 const PORT = process.env.PORT || 5000
 
@@ -25,7 +25,7 @@ app.use(helmet())
 app.use('/api/', limiter)
 app.use(express.json({ limit: '10kb' }))
 app.use(cors({
-    origin: CLIENT_URL,
+    origin: FRONTEND_URL,
     credentials: true
 }))
 
