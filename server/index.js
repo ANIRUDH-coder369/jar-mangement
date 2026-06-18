@@ -8,8 +8,9 @@ const rateLimit = require('express-rate-limit')
 const app = express()
 
 const CLIENT_URL = process.env.NODE_ENV === 'production'
-    ? process.env.CLIENT_URL || "https://jar-app.vercel.app"
-    : process.env.CLIENT_URL || "http://localhost:3000"
+    ? process.env.LIVE_URL
+    : process.env.CLIENT_URL
+
 const PORT = process.env.PORT || 5000
 
 const limiter = rateLimit({
@@ -43,7 +44,7 @@ app.use((err, req, res, next) => {
     res.status(err.status || 500).json({ message: err.message || 'Internal server error' })
 })
 
-mongoose.connect(process.env.MONGO_URL)
+mongoose.connect(process.env.CLIENT_URL)
     .then(() => {
         console.log('db connected')
         app.listen(PORT, () => {
