@@ -1,0 +1,17 @@
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\App.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\index.ts
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\components\StarRating.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\AddCustomerScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\AddJarEntryScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\ChartsScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\CustomerDetailScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\CustomersScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\DashboardScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\EditCustomerScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\EditJarEntryScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\LoginScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\PlanSelectionScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\RegisterScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\screens\ReviewsScreen.tsx
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\services\api.ts
+C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\mobile\src\types\index.ts

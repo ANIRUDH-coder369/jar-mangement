@@ -1,0 +1,20 @@
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\aniru\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\aniru\OneDrive\Desktop\mongodb-jar-manegement\jar\client\package-lock.json
+
+Failed to type check.
+
+./app/customer/[id]/page.tsx:123:63
+Type error: Parameter 'p' implicitly has an 'any' type.
+
+  [90m121 |[0m ...                     >
+  [90m122 |[0m ...                         <option value=[32m""[0m>[33mSelect[0m pricing</option>
+[31m[1m>[0m [90m123 |[0m ...                         {pricePresets.map(p => (
+  [90m    |[0m                                               [31m[1m^[0m
+  [90m124 |[0m ...                             <option key={p.id} value={p.price}>{p.liter}[33mL[0m — ${p.price...
+  [90m125 |[0m ...                         ))}
+  [90m126 |[0m ...                     </select>
+Next.js build worker exited with code: 1 and signal: null
